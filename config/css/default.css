@@ -40,19 +40,6 @@ p {
   letter-spacing: 3px;
 }
 
-@media (max-width: 768px) {
-  p {
-    font-size: 2.5em;
-  }
-}
-@media (max-width: 344px) {
-  p {
-    font-size: 1.5em !important;
-  }
-  span {
-    font-size: 0.8em !important;
-  }
-}
 .countdown-style {
   color: rgb(0, 0, 0); /* ou a cor que quiser */
   font-weight: bold;
@@ -61,6 +48,7 @@ p {
 }
 .countdown-style p {
   margin: 0;
+  text-shadow: 1px 1px 2px black;
 }
 
 .container {
@@ -84,6 +72,7 @@ p {
   text-decoration: none;
   transition: 0.3s;
   letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
 }
 .container .link:hover {
   color: rgb(255, 184, 17);
@@ -105,11 +94,7 @@ p {
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #eab6ff, 0 0 0.8rem #eae7ca, 0 0 2.8rem #d879fe, inset 0 0 1.3rem #f6abff;
 }
 
-@keyframes pulsate {
-  100% {
-    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #eafe13, 0 0 80px #eafe13, 0 0 90px #eafe13, 0 0 100px #eafe13, 0 0 150px #eafe13;
-  }
-  0% {
-    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #eafe13, 0 0 45px #eafe13, 0 0 55px #f9ffb4, 0 0 70px #eafe13, 0 0 80px #eafe13;
-  }
+.creator {
+  font-size: 12px;
+  text-shadow: 1px 1px 2px black;
 }/*# sourceMappingURL=default.css.map */
